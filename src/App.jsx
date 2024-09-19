@@ -1,5 +1,6 @@
 import './App.css';
 import { MyFirstComponent } from './components/MyFirstComponent';
+import { SecondComponent } from './components/SecondComponent';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <h1>Fundamentos de React</h1>
       <MyFirstComponent />
+      <SecondComponent/>
     </>
   )
 };
