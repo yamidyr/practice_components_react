@@ -2,7 +2,7 @@ export const MyFirstComponent = () => {
 
   const name = "Inés María Oliveros";
 
-  const github_profile = "https://github.com/yamidyr";
+  const github_profile = "https://github.com/inesmariao/b3_practice_components_react";
 
   const student = {
     name: "Yamid",
@@ -14,7 +14,7 @@ export const MyFirstComponent = () => {
   return (
     <>
         <div>MyFirstComponent</div>
-        <div className="container bg-warning-subtle">
+        <div className="container">
         <h1>Temas de React</h1>
         <ul>
             <li>Componentes</li>
@@ -23,12 +23,12 @@ export const MyFirstComponent = () => {
             <li>Props</li>
         </ul>
         </div>
-        <div className="container bg-info-subtle py-100">
+        <div className="container py-100">
           <h1>Datos de la profesora</h1>
           <p>Nombre: <strong>{ name }</strong></p>
           <p>GitHub profile: { github_profile } </p>
         </div>
-        <div className="container bg-secondary-subtle py-100">
+        <div className="container py-100">
           <h1>Datos del estudiante</h1>
           <p>Nombre: <strong>{ student.name }</strong></p>
           <p>Apellido: { student.last_name }</p>
